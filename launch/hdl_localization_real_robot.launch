@@ -8,9 +8,9 @@
   <arg name="odom_child_frame_id" default="base_footprint" />
 
   <!-- optional arguments -->
-  <arg name="use_imu" default="false" /> <!-- default XYZ = front-left-up -->
-  <arg name="invert_imu_acc" default="true" />
-  <arg name="invert_imu_gyro" default="true" />
+  <arg name="use_imu" default="true" /> <!-- default XYZ = front-left-up -->
+  <arg name="invert_imu_acc" default="false" />
+  <arg name="invert_imu_gyro" default="false" />
   <arg name="use_global_localization" default="true" />
   <arg name="imu_topic" default="/imu_raw" />
   <arg name="enable_robot_odometry_prediction" value="false" />
